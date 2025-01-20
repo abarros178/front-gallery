@@ -14,19 +14,19 @@ body {
 }
 
 h2 {
-    font-size: 2rem; /* Ajusta el tamaño según tus necesidades */
-    margin: 1rem 0; /* Mantén un margen adecuado */
-    text-align: left; /* Alineación del texto */
+    font-size: 2rem; 
+    margin: 1rem 0; 
+    text-align: left;
 }
 
 
 
 /* Contenedor principal de la galería */
 .gallery {
-    position: relative; /* Esto asegura que los elementos absolutos se posicionen respecto a este contenedor */
-    width: 500px; /* Ajusta el ancho según lo que necesites */
-    margin: 2rem 0; /* Espaciado vertical entre galerías */
-    background-color: #00B3FF; /* Fondo de la galería */
+    position: relative; 
+    width: 500px; 
+    margin: 2rem 0; 
+    background-color: #00B3FF;
     padding: 0.4rem;
     border: 3px solid #43BAE7;
 }
@@ -42,32 +42,32 @@ h2 {
 .gallery img {
     max-width: 100%;
     height: auto;
-    border: 1px solid black;  /* Borde púrpura */
+    border: 1px solid black;
     display: block;
-    margin: 0 auto;             /* Centra la imagen */
+    margin: 0 auto;
 }
 
 /* Descripción debajo de la imagen */
 .gallery dd {
-    margin: 0.4rem 0 0 0; /* Quita márgenes externos */
-    padding: 0.4rem 0.6rem 0.4rem 0.4rem; /* Espaciado interno: arriba 0, derecha 0.6rem, abajo 0, izquierda 0.4rem */
-    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0.4rem 0 0 0;
+    padding: 0.4rem 0.6rem 0.4rem 0.4rem;
+    text-align: left;
     font-size: 1.05rem;
-    background-color: #03FEFF; /* Fondo azul claro */
+    background-color: #03FEFF; 
 	line-height: 1;
-    color: #000; /* Texto negro */
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    box-sizing: border-box; /* Incluye padding en el ancho */
+    color: #000;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Contenedor de tabs */
 .tab-container {
-    position: absolute; /* Lo hacemos absoluto respecto al contenedor de la galería */
-    top: -1.3rem; /* Ajusta según la posición deseada */
+    position: absolute;
+    top: -1.3rem;
 	left: -0.19rem;
-    z-index: 10; /* Mantiene los tabs sobre el resto del contenido */
-    display: flex; /* Flexbox para alinear los tabs horizontalmente */
-    gap: 10px; /* Espaciado entre los tabs */
+    z-index: 10;
+    display: flex;
+    gap: 10px;
 }
 
 
@@ -75,13 +75,12 @@ h2 {
 /* Cada tab es un botón cuadrado */
 .tab {
     display: inline-block;
-    width: 29px; /* Ajusta el ancho del tab */
-    height: 18px; /* Ajusta la altura del tab */
-    text-align: center; /* Centra el texto horizontalmente */
-    /* margin-right: 10px; Espaciado entre tabs */
-    background-color: #7165EB; /* Color púrpura base */
-    color: #fff; /* Texto blanco */
-    font-size: 0.8rem; /* Tamaño del texto */
+    width: 29px;
+    height: 18px;
+    text-align: center;
+    background-color: #7165EB;
+    color: #fff;
+    font-size: 0.8rem;
     cursor: pointer;
     border: none;
 	margin: 0; 
@@ -90,7 +89,7 @@ h2 {
 
 /* Tab activo */
 .tab.active {
-    background-color: #00B4FE;   /* Púrpura más claro */
+    background-color: #00B4FE;
 }
 
 /* Hover tab */
